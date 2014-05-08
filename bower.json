@@ -1,0 +1,19 @@
+{
+  "name": "biomorphs",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.10.2",
+    "history.js": null
+  },
+  "devDependencies": {
+  },
+  "exportsOverride": {
+    "jquery": {
+      "../": "jquery.js"
+    },
+    "history.js":{
+      "../": "scripts/bundled-uncompressed/html4+html5/jquery.history.js"
+    }
+  }
+}

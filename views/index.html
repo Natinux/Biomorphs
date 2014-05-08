@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>
+		Biomorphs
+	</title>
+    <link rel="stylesheet" href="/styles/biomorphs.min.css" type="text/css" />
+</head>
+<body>
+
+	<!-- Warp main content -->
+	<div id="wrap">
+        <div class="content">
+            <ul>
+                <li><canvas class="biomorphs-canvas"></canvas></li>
+                <li><canvas class="biomorphs-canvas"></canvas></li>
+                <li><canvas class="biomorphs-canvas"></canvas></li>
+
+                <li><canvas class="biomorphs-canvas"></canvas></li>
+                <li><canvas id="center" class="biomorphs-canvas"></canvas></li>
+                <li><canvas class="biomorphs-canvas"></canvas></li>
+
+                <li><canvas class="biomorphs-canvas"></canvas></li>
+                <li><canvas class="biomorphs-canvas"></canvas></li>
+                <li><canvas class="biomorphs-canvas"></canvas></li>
+            </ul>
+            <div > <a href="#share-popup" class="share-menu icon-share"> Share</a>
+            </div>
+        </div>
+
+        <!-- Share form popup -->
+        <div id="share-popup" class="overlay">
+            <div class="popup">
+                <div class="popup-content">
+                    <a class="close" href="#">&times;</a>
+                    <h2>Share</h2>
+                    <p>Enter an email if you want me to auto send an email with a link</p>
+                    <input id="email" name="email" type="email" placeholder="Enter Email">
+                    <p class="parent"><a class="button" id="share-button">Share</a> </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popup message when link is shared -->
+        <div id="share-popup-msg" class="overlay">
+            <div class="popup">
+                <div class="popup-content">
+                    <a class="close" href="#">&times;</a>
+                    <h2>Share</h2>
+                    <p>Here is your link</p>
+                    <a class="message"></a>
+                </div>
+            </div>
+        </div>
+	</div>
+
+
+
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+    <script src="/libs/jquery.js"></script>
+    <script src="/libs/jquery.history.js"></script>
+    <script src="/js/helper.js"></script>
+    <script src="/js/biomorphs.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

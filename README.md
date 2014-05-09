@@ -31,7 +31,7 @@ Note: no tests implemented.
 
 ## About
 
-You can see a [Live Demo](http://biomorphs.nati.be/)
+##### You can see a [Live Demo](http://biomorphs.nati.be/)
 
 On the server side implementation I used Node.js with Express framework and MongoDB as database.
 On the client side, pure JavaScript with help of jQuery and History.

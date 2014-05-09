@@ -27,3 +27,15 @@ watchers on scripts and css files for rebuild.
     
     
 Note: no tests implemented.
+
+
+## About the project
+
+On the server side implementation I used Node.js with Express framework and MongoDB as database.
+On the client side, pure JavaScript with help of jQuery and History.
+
+After runnign grunt build command, new folder named "public" will appear with the content of the client side files.
+Thoes files are rendered / copied from the folder "client".
+
+The main layout is views/index.html served as static by the server.
+

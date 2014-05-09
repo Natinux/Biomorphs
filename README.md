@@ -60,16 +60,13 @@ The main layout is views/index.html served as static by the server.
     
 ### Structure
 
-*client* - front-end source files.
-*config* - server configuration files. (corrently, mail configs only)
-*models* - Express models.
-*routes* - Express routers.
-*views* - Express views. (static html, the main layout of the project.)
-*index.js* - the main entry-point the project.
-*Gruntfile.js* - Grunt's configuration file.
-*bower.json* - bower's configuration file.
-*package.json* - npm's configuration file.
-*.travis.yml* - travis ci configuration file.
-
-
-
+* `client` - front-end source files.
+* `config` - server configuration files. (corrently, mail configs only)
+* `models` - Express models.
+* `routes` - Express routers.
+* `views` - Express views. (static html, the main layout of the project.)
+* `index.js` - the main entry-point the project.
+* `Gruntfile.js` - Grunt's configuration file.
+* `bower.json` - bower's configuration file.
+* `package.json` - npm's configuration file.
+* `.travis.yml` - travis ci configuration file.
